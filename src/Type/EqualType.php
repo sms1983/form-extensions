@@ -22,7 +22,7 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
  *
  * @deprecated since sonata-project/form-extensions 1.2, to be removed with 2.0
  */
-final class EqualType extends AbstractType
+class EqualType extends AbstractType
 {
     public const TYPE_IS_EQUAL = 1;
 

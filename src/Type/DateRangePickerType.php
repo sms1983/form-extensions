@@ -20,7 +20,7 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
  *
  * @author Andrej Hudec <pulzarraider@gmail.com>
  */
-final class DateRangePickerType extends DateRangeType
+class DateRangePickerType extends DateRangeType
 {
     public function configureOptions(OptionsResolver $resolver): void
     {

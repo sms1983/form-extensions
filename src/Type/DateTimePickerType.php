@@ -19,7 +19,7 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
 /**
  * @author Hugo Briand <briand@ekino.com>
  */
-final class DateTimePickerType extends BasePickerType
+class DateTimePickerType extends BasePickerType
 {
     public function configureOptions(OptionsResolver $resolver): void
     {

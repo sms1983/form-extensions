@@ -19,7 +19,7 @@ use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
-final class BooleanType extends AbstractType
+class BooleanType extends AbstractType
 {
     public const TYPE_YES = 1;
 
